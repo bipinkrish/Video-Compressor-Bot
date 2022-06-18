@@ -1,8 +1,8 @@
-# mdisk-downloader-telegram-bot
+# video-compressor-telegram-bot
 
-You can watch videos without mx player (bypass mdisk requirements)
+It compress's video in h265 codec
 
-Env variables ->>
+Env variables
 
 TOKEN ->> Bot API Token
 
