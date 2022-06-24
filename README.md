@@ -2,7 +2,7 @@
 
 It compress's video in h265 codec
 
-Env variables
+# Env variables
 
 TOKEN ->> Bot API Token
 
