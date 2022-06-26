@@ -25,7 +25,8 @@ def compress(message):
     vfile = app.download_media(message, progress=progress)
     name = vfile.split("/")[-1]
     print(name)
-    cmd = f'./ffmpeg/ffmpeg -i {vfile} -c:v libx265 -vtag hvc1 output-{message.id}.mkv'
+    #cmd = f'./ffmpeg/ffmpeg -i {vfile} -c:v libx265 -vtag hvc1 output-{message.id}.mkv'
+    cmd = f'./ffmpeg/ffmpeg -i {vfile} output-{message.id}.mov'
     app.send_message(message.chat.id,"Compressing") 
     try:
         os.system(cmd)
