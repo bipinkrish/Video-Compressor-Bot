@@ -1,11 +1,13 @@
-# video-compressor-telegram-bot
+# Video-Compressor-Bot
 
-It compress's video in h265 codec
+A Telegram Bot that compress's video in h265 codec
 
-# Env variables
+---
 
-TOKEN ->> Bot API Token
+## Variables
 
-ID ->> API ID
+- `API_HASH` Your API Hash from my.telegram.org
+- `API_ID` Your API ID from my.telegram.org
+- `BOT_TOKEN` Your bot token from @BotFather
 
-HASH ->> API Hash
+---
